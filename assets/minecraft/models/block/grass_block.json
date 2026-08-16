@@ -1,0 +1,47 @@
+{
+	"parent": "minecraft:block/block",
+    "textures": {
+        "particle": "minecraft:block/dirt_tintable",
+        "bottom": "minecraft:block/dirt_tintable",
+        "top": "minecraft:block/grass_block_top",
+		"side": "minecraft:block/grass_block_side_tintable",
+        "overlay": "minecraft:block/dirt_overlay",
+		"overlay_grass": "minecraft:block/grass_block_side_overlay_grass",
+        "overlay_pebbles": "minecraft:block/grass_block_side_overlay_pebbles"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up", "tintindex": 1},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay_grass", "cullface": "north", "tintindex": 1},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay_grass", "cullface": "east", "tintindex": 1},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay_grass", "cullface": "south", "tintindex": 1},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay_grass", "cullface": "west", "tintindex": 1}
+			}
+		},
+        {
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay_pebbles", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay_pebbles", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay_pebbles", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay_pebbles", "cullface": "west"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "ice_cubes:block/tintable_soiltype_overlay",
+	"textures": {
+        "particle": "minecraft:block/dirt_tintable",
+		"top": "minecraft:block/podzol_top",
+        "side": "minecraft:block/podzol_tintable",
+        "bottom": "minecraft:block/dirt_tintable",
+		"overlay_top": "minecraft:block/podzol_top",
+        "overlay_side": "minecraft:block/podzol_overlay",
+        "overlay_bottom": "minecraft:block/dirt_overlay"
+	}
+}

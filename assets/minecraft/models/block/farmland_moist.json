@@ -1,0 +1,12 @@
+{
+	"parent": "ice_cubes:block/tintable_short_soiltype_overlay",
+	"textures": {
+        "particle": "minecraft:block/farmland_moist_tintable",
+		"top": "minecraft:block/farmland_moist_tintable",
+        "side": "minecraft:block/farmland_moist_side",
+        "bottom": "minecraft:block/dirt_tintable",
+		"overlay_top": "minecraft:block/farmland_overlay",
+        "overlay_side": "minecraft:block/farmland_side_overlay",
+        "overlay_bottom": "minecraft:block/dirt_overlay"
+	}
+}
