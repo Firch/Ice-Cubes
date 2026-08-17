@@ -1,0 +1,18 @@
+{
+    "parent": "ice_cubes:block/tintable_cube_overlay",
+    "textures": {
+        "particle": "#all",
+        "bottom": "#all",
+        "top": "#all",
+        "north": "#all",
+        "east": "#all",
+        "south": "#all",
+        "west": "#all",
+        "overlay_bottom": "#overlay",
+        "overlay_top": "#overlay",
+        "overlay_north": "#overlay",
+        "overlay_east": "#overlay",
+        "overlay_south": "#overlay",
+        "overlay_west": "#overlay"
+    }
+}

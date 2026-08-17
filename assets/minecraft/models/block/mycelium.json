@@ -1,7 +1,6 @@
 {
-	"parent": "ice_cubes:block/tintable_soiltype_overlay",
+	"parent": "ice_cubes:block/tintable_cube_overlay_bottom_top",
 	"textures": {
-        "particle": "minecraft:block/dirt_tintable",
 		"top": "minecraft:block/mycelium_top",
         "side": "minecraft:block/mycelium_tintable",
         "bottom": "minecraft:block/dirt_tintable",

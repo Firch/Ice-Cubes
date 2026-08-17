@@ -1,5 +1,5 @@
 {
-	"parent": "ice_cubes:block/tintable_short_soiltype_overlay",
+	"parent": "ice_cubes:block/template_short_soil",
 	"textures": {
         "particle": "minecraft:block/farmland_moist_tintable",
 		"top": "minecraft:block/farmland_moist_tintable",

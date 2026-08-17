@@ -1,6 +1,9 @@
 {
-	"parent": "minecraft:block/cube_all",
+	"parent": "minecraft:block/block",
 	"render_type": "minecraft:cutout",
+    "textures": {
+        "particle": "#particle"
+    },
 	"elements": [
 		{
 			"from": [0, 0, 0],
@@ -18,12 +21,12 @@
 			"from": [0, 0, 0],
 			"to": [16, 15, 16],
 			"faces": {
-				"north": {"uv": [0, 1, 16, 16], "cullface": "north", "texture": "#overlay_side"},
-				"east": {"uv": [0, 1, 16, 16], "cullface": "east", "texture": "#overlay_side"},
-				"south": {"uv": [0, 1, 16, 16], "cullface": "south", "texture": "#overlay_side"},
-				"west": {"uv": [0, 1, 16, 16], "cullface": "west", "texture": "#overlay_side"},
+				"north": {"uv": [0, 1, 16, 16], "texture": "#overlay_side", "cullface": "north"},
+				"east": {"uv": [0, 1, 16, 16], "texture": "#overlay_side", "cullface": "east"},
+				"south": {"uv": [0, 1, 16, 16], "texture": "#overlay_side", "cullface": "south"},
+				"west": {"uv": [0, 1, 16, 16], "texture": "#overlay_side", "cullface": "west"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#overlay_top"},
-				"down": {"uv": [0, 0, 16, 16], "cullface": "down", "texture": "#overlay_bottom"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#overlay_bottom", "cullface": "down"}
 			}
 		}
 	]

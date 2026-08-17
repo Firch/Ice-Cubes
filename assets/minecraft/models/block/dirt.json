@@ -1,7 +1,6 @@
 {
-	"parent": "ice_cubes:block/tintable_overlay",
+	"parent": "ice_cubes:block/tintable_cube_overlay_all",
 	"textures": {
-        "particle": "minecraft:block/dirt_tintable",
 		"all": "minecraft:block/dirt_tintable",
 		"overlay": "minecraft:block/dirt_overlay"
 	}
