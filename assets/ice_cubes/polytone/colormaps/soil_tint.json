@@ -1,4 +1,6 @@
 {
+    "use_player_position": false,
+
     "x_axis": "minecraft:temperature",
     "y_axis": "minecraft:downfall"
 }
