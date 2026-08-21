@@ -17,3 +17,4 @@ Refreshing and crunchy take on the vanilla textures :3
 ### Supports:
 - AppleSkin
 - Raised
+- Clutter No More

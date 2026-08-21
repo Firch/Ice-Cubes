@@ -1,0 +1,11 @@
+{
+    "parent": "ice_cubes:block/step_double_overlay",
+    "textures": {
+        "bottom": "minecraft:block/sandstone_bottom",
+        "side": "minecraft:block/sandstone",
+        "top": "minecraft:block/sandstone_top",
+        "overlay_bottom": "minecraft:block/sandstone_bottom",
+        "overlay_side": "minecraft:block/sandstone_overlay_double",
+        "overlay_top": "minecraft:block/sandstone_top"
+    }
+}

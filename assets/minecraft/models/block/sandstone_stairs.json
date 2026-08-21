@@ -1,0 +1,18 @@
+{
+    "parent": "ice_cubes:block/stairs_overlay",
+    "textures": {
+        "particle": "minecraft:block/sandstone",
+        "bottom": "minecraft:block/sandstone_bottom",
+        "north": "minecraft:block/sandstone",
+        "south": "minecraft:block/sandstone",
+        "west": "minecraft:block/sandstone",
+        "east": "minecraft:block/sandstone",
+        "top": "minecraft:block/sandstone_top",
+        "overlay_bottom": "minecraft:block/sandstone_bottom",
+        "overlay_north": "minecraft:block/sandstone_overlay_downward",
+        "overlay_south": "minecraft:block/sandstone_overlay_upward",
+        "overlay_west": "minecraft:block/sandstone_overlay_double",
+        "overlay_east": "minecraft:block/sandstone_overlay",
+        "overlay_top": "minecraft:block/sandstone_top"
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "ice_cubes:block/cube_overlay_bottom_top",
+	"textures": {
+		"top": "minecraft:block/sandstone_top",
+        "side": "minecraft:block/sandstone",
+        "bottom": "minecraft:block/sandstone_bottom",
+        "overlay_top": "minecraft:block/sandstone_top",
+		"overlay_side": "minecraft:block/sandstone_overlay_double",
+        "overlay_bottom": "minecraft:block/sandstone_bottom"
+	}
+}

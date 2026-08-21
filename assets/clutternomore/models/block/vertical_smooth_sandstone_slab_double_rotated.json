@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:block/sandstone",
+        "up": "minecraft:block/smooth_sandstone_vertical_slab_double_side",
+        "north": "minecraft:block/smooth_sandstone_slab_double_top",
+        "east": "minecraft:block/smooth_sandstone_vertical_slab_double_side",
+        "south": "minecraft:block/smooth_sandstone_slab_double_top",
+        "west": "minecraft:block/smooth_sandstone_vertical_slab_double_side",
+        "down": "minecraft:block/smooth_sandstone_vertical_slab_double_side"
+    }
+}
