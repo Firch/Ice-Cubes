@@ -1,0 +1,24 @@
+{
+    "parent": "ice_cubes:block/cube_double_overlay",
+    "textures": {
+        "particle": "#bottom",
+        "bottom": "#bottom",
+        "top": "#top",
+        "north": "#side",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side",
+        "overlay_bottom": "#overlay_bottom",
+        "overlay_top": "#overlay_top",
+        "overlay_north": "#overlay_side",
+        "overlay_east": "#overlay_side",
+        "overlay_south": "#overlay_side",
+        "overlay_west": "#overlay_side",
+        "extra_bottom": "#extra_bottom",
+        "extra_top": "#extra_top",
+        "extra_north": "#extra_side",
+        "extra_east": "#extra_side",
+        "extra_south": "#extra_side",
+        "extra_west": "#extra_side"
+    }
+}

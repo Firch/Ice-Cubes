@@ -1,0 +1,33 @@
+{
+    "parent": "clutternomore:block/templates/vertical_slab",
+	"render_type": "minecraft:cutout",
+    "textures": {
+        "particle": "#side"
+    },
+    "elements": [
+        {
+            "from": [0, 0, 0],
+            "to": [16, 16, 8],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+                "east": {"uv": [8, 0, 16, 16], "texture": "#side", "cullface": "east"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+                "west": {"uv": [0, 0, 8, 16], "texture": "#side", "cullface": "west"},
+                "up": {"uv": [0, 0, 16, 8], "texture": "#top", "cullface": "up"},
+                "down": {"uv": [16, 16, 0, 8], "texture": "#bottom", "cullface": "down"}
+            }
+        },
+        {
+            "from": [0, 0, 0],
+            "to": [16, 16, 8],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#overlay_side", "cullface": "north"},
+                "east": {"uv": [8, 0, 16, 16], "texture": "#overlay_side", "cullface": "east"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#overlay_side"},
+                "west": {"uv": [0, 0, 8, 16], "texture": "#overlay_side", "cullface": "west"},
+                "up": {"uv": [0, 0, 16, 8], "texture": "#overlay_top", "cullface": "up"},
+                "down": {"uv": [16, 16, 0, 8], "texture": "#overlay_bottom", "cullface": "down"}
+            }
+        }
+    ]
+}
