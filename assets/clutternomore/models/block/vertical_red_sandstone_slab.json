@@ -1,0 +1,11 @@
+{
+  "parent": "ice_cubes:block/vertical_slab_overlay",
+  "textures": {
+    "bottom": "clutternomore:block/vertical_red_sandstone_slab_bottom_side",
+    "side": "clutternomore:block/vertical_red_sandstone_slab_bottom_side",
+    "top": "clutternomore:block/vertical_red_sandstone_slab_top",
+    "overlay_bottom": "clutternomore:block/vertical_red_sandstone_slab_bottom_side",
+    "overlay_side": "clutternomore:block/vertical_red_sandstone_slab_overlay",
+    "overlay_top": "clutternomore:block/vertical_red_sandstone_slab_top"
+  }
+}

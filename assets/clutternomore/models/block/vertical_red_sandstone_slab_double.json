@@ -1,0 +1,18 @@
+{
+  "parent": "ice_cubes:block/cube_overlay",
+  "textures": {
+    "particle": "clutternomore:block/vertical_red_sandstone_slab_double_inner",
+    "top": "clutternomore:block/vertical_red_sandstone_slab_double_inner",
+    "north": "clutternomore:block/vertical_red_sandstone_slab_double_outer",
+    "east": "clutternomore:block/vertical_red_sandstone_slab_double_inner",
+    "south": "clutternomore:block/vertical_red_sandstone_slab_double_outer",
+    "west": "clutternomore:block/vertical_red_sandstone_slab_double_inner",
+    "bottom": "clutternomore:block/vertical_red_sandstone_slab_double_outer",
+    "overlay_top": "clutternomore:block/vertical_red_sandstone_slab_double_overlay_edges",
+    "overlay_north": "clutternomore:block/vertical_red_sandstone_slab_double_outer",
+    "overlay_east": "clutternomore:block/vertical_red_sandstone_slab_double_overlay_sideways",
+    "overlay_south": "clutternomore:block/vertical_red_sandstone_slab_double_outer",
+    "overlay_west": "clutternomore:block/vertical_red_sandstone_slab_double_overlay_sideways",
+    "overlay_bottom": "clutternomore:block/vertical_red_sandstone_slab_double_overlay_edges"
+  }
+}

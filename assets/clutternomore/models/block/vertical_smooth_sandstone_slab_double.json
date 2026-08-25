@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "clutternomore:block/vertical_smooth_sandstone_slab_double_north_south",
+    "down": "clutternomore:block/vertical_smooth_sandstone_slab_double_bottom_top",
+    "up": "clutternomore:block/vertical_smooth_sandstone_slab_double_bottom_top",
+    "north": "clutternomore:block/vertical_smooth_sandstone_slab_double_north_south",
+    "south": "clutternomore:block/vertical_smooth_sandstone_slab_double_north_south",
+    "east": "clutternomore:block/vertical_smooth_sandstone_slab_double_east_west",
+    "west": "clutternomore:block/vertical_smooth_sandstone_slab_double_east_west"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "ice_cubes:block/inner_stairs_overlay",
+  "textures": {
+    "particle": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "bottom": "minecraft:block/red_sandstone_stairs_top",
+    "north": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "south": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "west": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "east": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "top": "minecraft:block/red_sandstone_stairs_bottom_side",
+    "overlay_bottom": "minecraft:block/red_sandstone_stairs_top",
+    "overlay_north": "minecraft:block/red_sandstone_stairs_overlay",
+    "overlay_south": "minecraft:block/red_sandstone_stairs_overlay",
+    "overlay_west": "minecraft:block/red_sandstone_stairs_overlay",
+    "overlay_east": "minecraft:block/red_sandstone_stairs_overlay",
+    "overlay_top": "minecraft:block/red_sandstone_stairs_bottom_side"
+  }
+}

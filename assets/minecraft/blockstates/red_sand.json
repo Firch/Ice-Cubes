@@ -1,0 +1,342 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/red_sand"
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "y": 270,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 90,
+        "y": 270,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 180,
+        "y": 270,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "minecraft:block/red_sand",
+        "x": 270,
+        "y": 270,
+        "z": 270
+      }
+    ]
+  }
+}

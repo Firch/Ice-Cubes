@@ -1,0 +1,11 @@
+{
+  "parent": "ice_cubes:block/step_overlay",
+  "textures": {
+    "bottom": "clutternomore:block/red_sandstone_step_bottom_side",
+    "side": "clutternomore:block/red_sandstone_step_bottom_side",
+    "top": "clutternomore:block/red_sandstone_step_top",
+    "overlay_bottom": "clutternomore:block/red_sandstone_step_bottom_side",
+    "overlay_side": "clutternomore:block/red_sandstone_step_overlay",
+    "overlay_top": "clutternomore:block/red_sandstone_step_top"
+  }
+}

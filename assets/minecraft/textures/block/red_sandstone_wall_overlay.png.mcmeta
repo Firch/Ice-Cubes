@@ -1,0 +1,11 @@
+{
+  "fusion": {
+    "type": "connecting",
+    "connections": [
+      {
+        "type": "is_same_block"
+      }
+    ],
+    "layout": "vertical"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "clutternomore:block/templates/vertical_slab",
+  "textures": {
+    "bottom": "clutternomore:block/vertical_cut_red_sandstone_slab_bottom_top",
+    "side": "clutternomore:block/vertical_cut_red_sandstone_slab_side",
+    "top": "clutternomore:block/vertical_cut_red_sandstone_slab_bottom_top"
+  }
+}
