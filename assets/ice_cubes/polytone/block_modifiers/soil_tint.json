@@ -2,7 +2,6 @@
     "tinted_breaking_particles": true,
     "targets": [
         "minecraft:dirt",
-        "minecraft:grass_block",
         "minecraft:coarse_dirt",
         "minecraft:rooted_dirt",
         "minecraft:farmland",
@@ -10,7 +9,6 @@
         "minecraft:mycelium"
     ],
     "colormap": {
-        "0": "ice_cubes:soil_tint",
-        "1": "minecraft:grass_color"
+        "0": "ice_cubes:soil_tint"
     }
 }

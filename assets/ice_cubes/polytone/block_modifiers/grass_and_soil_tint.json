@@ -1,0 +1,10 @@
+{
+    "tinted_breaking_particles": true,
+    "targets": [
+        "minecraft:grass_block"
+    ],
+    "colormap": {
+        "0": "minecraft:grass_color",
+        "1": "ice_cubes:soil_tint"
+    }
+}
