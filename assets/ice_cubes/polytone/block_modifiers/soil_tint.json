@@ -9,6 +9,7 @@
         "minecraft:mycelium"
     ],
     "colormap": {
-        "0": "ice_cubes:soil_tint"
+        "0": "ice_cubes:soil_tint",
+        "1": "ice_cubes:soil_tint"
     }
 }
