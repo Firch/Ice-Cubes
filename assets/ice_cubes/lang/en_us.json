@@ -1,0 +1,4 @@
+{
+    "config.ice_cubes.snow_overlay": "Snow Overlay",
+    "config.ice_cubes.snow_overlay.tooltip": "Applies snow overlay to plants placed adjacent to snow or on top of snow blocks."
+}
