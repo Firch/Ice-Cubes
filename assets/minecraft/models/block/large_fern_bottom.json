@@ -1,0 +1,9 @@
+{
+	"parent": "ice_cubes:block/template_fluffy_plant_bottom",
+	"textures": {
+		"bottom": "minecraft:block/large_fern_bottom",
+        "top": "minecraft:block/large_fern_top",
+        "overlay_bottom": "minecraft:block/nothing",
+        "overlay_top": "minecraft:block/nothing"
+	}
+}

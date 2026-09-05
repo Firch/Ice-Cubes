@@ -1,0 +1,18 @@
+{
+    "multipart":
+    [
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.north.block == 'minecraft:snow' || o.south.block == 'minecraft:snow' || o.east.block == 'minecraft:snow' || o.west.block == 'minecraft:snow' || o.down.block == 'minecraft:snow_block'",
+                        "model": {"model": "minecraft:block/fern_snowy"}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/fern"}
+            }
+        }
+    ]
+}

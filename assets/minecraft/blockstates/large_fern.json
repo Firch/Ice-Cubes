@@ -1,0 +1,26 @@
+{
+    "multipart":
+    [
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower' && (o.north.block == 'minecraft:snow' || o.south.block == 'minecraft:snow' || o.east.block == 'minecraft:snow' || o.west.block == 'minecraft:snow' || o.down.block == 'minecraft:snow_block')",
+                        "model": {"model": "minecraft:block/large_fern_snowy_bottom"}
+                    },
+                    {
+                        "when": "o.blockStateValue('half') == 'upper' && (o.north.down.block == 'minecraft:snow' || o.south.down.block == 'minecraft:snow' || o.east.down.block == 'minecraft:snow' || o.west.down.block == 'minecraft:snow' || o.down.down.block == 'minecraft:snow_block')",
+                        "model": {"model": "minecraft:block/large_fern_snowy_top"}
+                    },
+                    {
+                        "when": "o.blockStateValue('half') == 'upper' && (!o.north.down.block == 'minecraft:snow' || o.south.down.block == 'minecraft:snow' || o.east.down.block == 'minecraft:snow' || o.west.down.block == 'minecraft:snow' || o.down.down.block == 'minecraft:snow_block')",
+                        "model": {"model": "minecraft:block/large_fern_top"}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/large_fern_bottom"}
+            }
+        }
+    ]
+}
