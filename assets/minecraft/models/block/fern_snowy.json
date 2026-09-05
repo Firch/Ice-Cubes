@@ -1,7 +1,0 @@
-{
-	"parent": "ice_cubes:block/template_fluffy_plant",
-	"textures": {
-		"all": "minecraft:block/fern",
-        "overlay": "minecraft:block/fern_snowy"
-	}
-}
