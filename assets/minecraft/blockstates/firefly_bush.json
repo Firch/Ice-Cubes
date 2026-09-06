@@ -1,0 +1,10 @@
+{
+    "multipart":
+    [
+        {"apply": {"model": "minecraft:block/firefly_bush"}},
+        {"apply": {"model": "minecraft:block/firefly_bush", "x": 45,  "zoffset": -8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/firefly_bush", "x": -45, "zoffset":  8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/firefly_bush", "z": 45,  "xoffset":  8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/firefly_bush", "z": -45, "xoffset": -8, "yoffset": -4}}
+    ]
+}

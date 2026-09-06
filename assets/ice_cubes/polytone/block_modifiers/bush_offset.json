@@ -1,4 +1,4 @@
 {
-    "targets": "minecraft:bush",
+    "targets": ["minecraft:bush", "minecraft:firefly_bush"],
     "offset_type": "xz"
 }

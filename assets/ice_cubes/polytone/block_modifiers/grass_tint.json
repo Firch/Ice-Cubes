@@ -1,0 +1,9 @@
+{
+    "tinted_breaking_particles": true,
+    "targets": [
+        "minecraft:firefly_bush"
+    ],
+    "colormap": {
+        "0": "minecraft:grass_color"
+    }
+}
