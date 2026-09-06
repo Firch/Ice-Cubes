@@ -1,0 +1,11 @@
+{
+    "type": "foliage",
+    "priority": 100,
+    "interactive": true,
+    "sway_start_height_multiplier": 0.25,
+    "sway_strength_multiplier": 1.15,
+    "interaction_strength_multiplier": 1.15,
+    "blocks": [
+        "minecraft:bush"
+    ]
+}

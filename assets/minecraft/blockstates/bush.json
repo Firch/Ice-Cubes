@@ -1,0 +1,10 @@
+{
+    "multipart":
+    [
+        {"apply": {"model": "minecraft:block/bush"}},
+        {"apply": {"model": "minecraft:block/bush", "x": 45,  "zoffset": -8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/bush", "x": -45, "zoffset":  8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/bush", "z": 45,  "xoffset":  8, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/bush", "z": -45, "xoffset": -8, "yoffset": -4}}
+    ]
+}

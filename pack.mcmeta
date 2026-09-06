@@ -2,5 +2,16 @@
     "pack": {
         "description": "Refreshing. Crunchy.",
         "pack_format": 34
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "config_bushy_grass",
+                "polytone_condition": "config('ice_cubes:bushy_grass')",
+                "formats": [34, 34],
+                "min_format": 34,
+                "max_format": 34
+            }
+        ]
     }
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "ice_cubes:block/big_cross",
+	"textures": {
+		"all": "minecraft:block/dead_bush"
+	}
+}

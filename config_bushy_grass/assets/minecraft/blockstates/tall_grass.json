@@ -1,0 +1,70 @@
+{
+    "multipart":
+    [
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower'",
+                        "model": {"model": "minecraft:block/tall_grass_bottom"}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/tall_grass_top"}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower'",
+                        "model": {"model": "minecraft:block/tall_grass_bottom", "x": 22.5, "zoffset": -4,         "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/tall_grass_top",         "x": 22.5, "zoffset": -10.122935, "yoffset": -3.217928}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower'",
+                        "model": {"model": "minecraft:block/tall_grass_bottom", "x": -22.5,  "zoffset":  4,       "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/tall_grass_top",         "x": -22.5, "zoffset": 10.122935, "yoffset": -3.217928}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower'",
+                        "model": {"model": "minecraft:block/tall_grass_bottom", "z": 22.5, "xoffset": 4,         "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/tall_grass_top",         "z": 22.5, "xoffset": 10.122935, "yoffset": -3.217928}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('half') == 'lower'",
+                        "model": {"model": "minecraft:block/tall_grass_bottom", "z": -22.5, "xoffset": -4,         "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/tall_grass_top",         "z": -22.5, "xoffset": -10.122935, "yoffset": -3.217928}
+            }
+        }
+    ]
+}
