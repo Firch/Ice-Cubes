@@ -1,0 +1,10 @@
+{
+    "multipart":
+    [
+        {"apply": {"model": "minecraft:block/short_dry_grass"}},
+        {"apply": {"model": "minecraft:block/short_dry_grass", "x": 45,  "zoffset": -10, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/short_dry_grass", "x": -45, "zoffset":  10, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/short_dry_grass", "z": 45,  "xoffset":  10, "yoffset": -4}},
+        {"apply": {"model": "minecraft:block/short_dry_grass", "z": -45, "xoffset": -10, "yoffset": -4}}
+    ]
+}
