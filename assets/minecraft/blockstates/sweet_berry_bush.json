@@ -1,0 +1,110 @@
+{
+    "multipart":
+    [
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('age') == 1",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage1"}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 2",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage2"}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 3",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage3"}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/sweet_berry_bush_stage0"}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('age') == 1",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage1", "x": 22.5, "zoffset": -6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 2",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage2", "x": 22.5, "zoffset": -6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 3",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage3", "x": 22.5, "zoffset": -6, "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/sweet_berry_bush_stage0", "x": 22.5,  "zoffset": -6, "yoffset": -2}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('age') == 1",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage1", "x": -22.5, "zoffset":  6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 2",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage2", "x": -22.5, "zoffset":  6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 3",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage3", "x": -22.5, "zoffset":  6, "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/sweet_berry_bush_stage0", "x": -22.5, "zoffset":  6, "yoffset": -2}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('age') == 1",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage1", "z": 22.5, "xoffset":  6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 2",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage2", "z": 22.5, "xoffset":  6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 3",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage3", "z": 22.5, "xoffset":  6, "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/sweet_berry_bush_stage0", "z": 22.5, "xoffset":  6, "yoffset": -2}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "o.blockStateValue('age') == 1",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage1", "z": -22.5, "xoffset": -6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 2",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage2", "z": -22.5, "xoffset": -6, "yoffset": -2}
+                    },
+                    {
+                        "when": "o.blockStateValue('age') == 3",
+                        "model": {"model": "minecraft:block/sweet_berry_bush_stage3", "z": -22.5, "xoffset": -6, "yoffset": -2}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/sweet_berry_bush_stage0", "z": -22.5, "xoffset": -6, "yoffset": -2}
+            }
+        }
+    ]
+}

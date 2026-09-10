@@ -1,0 +1,6 @@
+{
+	"parent": "ice_cubes:block/tinted_big_cross",
+	"textures": {
+		"all": "minecraft:block/sweet_berry_bush_stage1"
+	}
+}

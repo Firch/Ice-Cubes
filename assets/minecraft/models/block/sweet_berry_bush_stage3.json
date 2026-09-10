@@ -1,0 +1,7 @@
+{
+	"parent": "ice_cubes:block/tinted_big_cross_overlay",
+	"textures": {
+		"all": "minecraft:block/sweet_berry_bush_stage3",
+        "overlay": "minecraft:block/sweet_berry_bush_stage3_overlay"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "tinted_breaking_particles": true,
+    "targets": [
+        "minecraft:bush"
+    ],
+    "colormap": {
+        "0": "minecraft:foliage_color"
+    }
+}
