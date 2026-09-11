@@ -7,7 +7,7 @@
         "entries": [
             {
                 "directory": "config_bushy_grass",
-                "polytone_condition": "config('ice_cubes:bushy_grass')",
+                "polytone_condition": "(!config('ice_cubes:bushy_grass') == 'none')",
                 "formats": [34, 34],
                 "min_format": 34,
                 "max_format": 34

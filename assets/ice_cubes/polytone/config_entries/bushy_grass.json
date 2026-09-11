@@ -1,4 +1,5 @@
 {
-    "default_value": false,
-    "display_order": 0
+    "display_order": 0,
+    "allowed_values": ["none", "partial", "full"],
+    "default_value": "none"
 }

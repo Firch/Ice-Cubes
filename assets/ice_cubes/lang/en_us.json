@@ -1,4 +1,7 @@
 {
     "config.ice_cubes.bushy_grass": "Bushy Grass",
-    "config.ice_cubes.bushy_grass.tooltip": "Makes grass and tall grass bushier using model duplication."
+    "config.ice_cubes.bushy_grass.none": "None",
+    "config.ice_cubes.bushy_grass.partial": "Partial",
+    "config.ice_cubes.bushy_grass.full": "Full",
+    "config.ice_cubes.bushy_grass.tooltip": "Makes grass and tall grass bushier using model duplication. If \u0022partial\u0022 mode is used, the behavior will be randomized to have equal chances of appearance for both default and bushier types of grass."
 }

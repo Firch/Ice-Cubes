@@ -2,9 +2,57 @@
     "multipart":
     [
         {"apply": {"model": "minecraft:block/short_grass"}},
-        {"apply": {"model": "minecraft:block/short_grass", "x": 45,  "zoffset": -8, "yoffset": -4}},
-        {"apply": {"model": "minecraft:block/short_grass", "x": -45, "zoffset":  8, "yoffset": -4}},
-        {"apply": {"model": "minecraft:block/short_grass", "z": 45,  "xoffset":  8, "yoffset": -4}},
-        {"apply": {"model": "minecraft:block/short_grass", "z": -45, "xoffset": -8, "yoffset": -4}}
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "((config('ice_cubes:bushy_grass') == 'partial') && (r.randInt(2) == 1)) || (config('ice_cubes:bushy_grass') == 'full')",
+                        "model": {"model": "minecraft:block/short_grass", "x": 45, "zoffset": -8, "yoffset": -4}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/air"}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "((config('ice_cubes:bushy_grass') == 'partial') && (r.randInt(2) == 1)) || (config('ice_cubes:bushy_grass') == 'full')",
+                        "model": {"model": "minecraft:block/short_grass", "x": -45, "zoffset":  8, "yoffset": -4}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/air"}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "((config('ice_cubes:bushy_grass') == 'partial') && (r.randInt(2) == 1)) || (config('ice_cubes:bushy_grass') == 'full')",
+                        "model": {"model": "minecraft:block/short_grass", "z": 45, "xoffset":  8, "yoffset": -4}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/air"}
+            }
+        },
+        {
+            "apply": {
+                "type": "polytone:expression",
+                "fabric:type": "polytone:expression",
+                "cases": [
+                    {
+                        "when": "((config('ice_cubes:bushy_grass') == 'partial') && (r.randInt(2) == 1)) || (config('ice_cubes:bushy_grass') == 'full')",
+                        "model": {"model": "minecraft:block/short_grass", "z": -45, "xoffset": -8, "yoffset": -4}
+                    }
+                ],
+                "fallback": {"model": "minecraft:block/air"}
+            }
+        }
     ]
 }
